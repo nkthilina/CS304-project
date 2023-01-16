@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <title> Home </title>
+</head>
+<style>
+    
+    .ovel {
+        background-color: rgb(243, 243, 243);
+        padding: 5px 10px;
+        border-radius: 1rem;
+    }
+
+    .rounded-4 {
+        border-radius: 0.5rem;
+    }
+
+    .rounded-5 {
+        border-radius: 0.75rem;
+    }
+
+    .rounded-6 {
+        border-radius: 1rem;
+    }
+
+    .rounded-7 {
+        border-radius: 1.25rem;
+    }
+
+    .rounded-8 {
+        border-radius: 1.5rem;
+    }
+
+    .rounded-9 {
+        border-radius: 1.75rem;
+    }
+
+    .rounded-10 {
+        border-radius: 2rem;
+    }
+
+    /* rounded top */
+    .rounded-t-4 {
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+    }
+
+    .rounded-t-5 {
+        border-top-left-radius: 0.75rem;
+        border-top-right-radius: 0.75rem;
+    }
+
+    .rounded-t-6 {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .rounded-t-7 {
+        border-top-left-radius: 1.25rem;
+        border-top-right-radius: 1.25rem;
+    }
+
+    .rounded-t-8 {
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+    }
+
+    .rounded-t-9 {
+        border-top-left-radius: 1.75rem;
+        border-top-right-radius: 1.75rem;
+    }
+
+    .rounded-t-10 {
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
+
+    .proimg {
+        width: 40px;
+        height: 40px;
+        border-radius: 25rem;
+
+    }
+
+    .card-text {
+        font-size: 0.9em;
+        color: #555;
+    }
+
+    .text-wrap {
+        line-height: 1em;
+    }
+</style>
+
+<body>
+    <header class="p-3 mb-1 border-bottom shadow-sm">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+
+                <div class="d-flex align-items-center mb-2 mb-lg-0 text-dark ">
+
+                    <div class="dropdown me-4">
+                        <a href="#"
+                            class="d-flex align-items-center col-lg-4 link-dark text-decoration-none dropdown-toggle"
+                            id="dropdownNavLink" data-bs-toggle="dropdown" aria-expanded="false">
+
+                        </a>
+
+                        <ul class="dropdown-menu text-small shadow-sm" aria-labelledby="dropdownNavLink">
+                            <li><a class="dropdown-item active" href="#" aria-current="page">Overview</a></li>
+                            <li><a class="dropdown-item" href="#">Inventory</a></li>
+                            <li><a class="dropdown-item" href="#">Customers</a></li>
+                            <li><a class="dropdown-item" href="#">Products</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Reports</a></li>
+                            <li><a class="dropdown-item" href="#">Analytics</a></li>
+                        </ul>
+                    </div>
+                    <h1> Fit2Planet </h1>
+                </div>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
+                    <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- section 1 -->
+    <section class="py-3 px-2 px-lg-4 bg-light ">
+
+        <div class="row gx-3 gy-3" data-masonry='{"percentPosition": true }'>
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="card rounded-6 shadow-sm">
+                    <img src="./boxing.jpg" class="card-img-top rounded-t-6" alt="...">
+                    <div class="card-body py-0">
+                        <div class="border-bottom py-2 mb-2 ">
+                            <div class="row align-items-center" style="line-height: 80%;">
+                                <div class="col-9 d-flex">
+                                    <img src="./six pack men.jpg" class=" proimg " alt="...">
+                                    <div class="mx-3">
+                                        <h6 class="m-0 p-0">Thilina <i class="bi bi-award-fill"></i></h6>
+                                        <p class=" m-0 p-0 text-muted small"> <small> asasdasd </small> </p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end small ovel">
+                                    <!-- <i class="bi bi-heart fa-lg"></i> -->
+                                    <i class="bi bi-heart-fill fa-lg text-danger"></i>
+                                    <small> 10k </small>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h5 class="card-title ">Card title Lorem ipsum dolor, Fugit, odio.</h5>
+                        <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, tenetur! Lorem ipsum dolor
+                            sit amet consectetur adipisic </p>
+
+                        <div class="d-flex justify-content-between pb-0">
+                            <p class="card-text"> <small class="text-muted ovel">Last </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">updated </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">3 mins ago</small></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="card rounded-6 shadow-sm">
+                    <img src="./six pack men.jpg" class="card-img-top rounded-t-6" alt="...">
+                    <div class="card-body py-0">
+                        <div class="border-bottom py-2 mb-2 ">
+                            <div class="row align-items-center" style="line-height: 80%;">
+                                <div class="col-9 d-flex">
+                                    <img src="./six pack men.jpg" class=" proimg " alt="...">
+                                    <div class="mx-3">
+                                        <h6 class="m-0 p-0">Thilina <i class="bi bi-award-fill"></i></h6>
+                                        <p class=" m-0 p-0 text-muted small"> <small> asasdasd </small> </p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end small ovel">
+                                    <!-- <i class="bi bi-heart fa-lg"></i> -->
+                                    <i class="bi bi-heart-fill fa-lg text-danger"></i>
+                                    <small> 10k </small>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h5 class="card-title ">Card title Lorem ipsum dolor, Fugit, odio.</h5>
+                        <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, tenetur! Lorem ipsum dolor
+                            sit amet consectetur adipisic </p>
+
+                        <div class="d-flex justify-content-between pb-0">
+                            <p class="card-text"> <small class="text-muted ovel">Last </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">updated </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">3 mins ago</small></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="card rounded-6 shadow-sm">
+                    <img src="./training_girl.jpg" class="card-img-top rounded-t-6" alt="...">
+                    <div class="card-body py-0">
+                        <div class="border-bottom py-2 mb-2 ">
+                            <div class="row align-items-center" style="line-height: 80%;">
+                                <div class="col-9 d-flex">
+                                    <img src="./training_girl.jpg" class=" proimg " alt="...">
+                                    <div class="mx-3">
+                                        <h6 class="m-0 p-0">Thilina <i class="bi bi-award-fill"></i></h6>
+                                        <p class=" m-0 p-0 text-muted small"> <small> asasdasd </small> </p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end small ovel">
+                                    <!-- <i class="bi bi-heart fa-lg"></i> -->
+                                    <i class="bi bi-heart-fill fa-lg text-danger"></i>
+                                    <small> 10k </small>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h5 class="card-title ">Card title Lorem ipsum dolor, Fugit, odio.</h5>
+                        <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, tenetur! Lorem ipsum dolor
+                            sit amet consectetur adipisic </p>
+
+                        <div class="d-flex justify-content-between pb-0">
+                            <p class="card-text"> <small class="text-muted ovel">Last </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">updated </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">3 mins ago</small></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="card rounded-6 shadow-sm">
+                    <img src="./abs_workout.jpg" class="card-img-top rounded-t-6" alt="...">
+                    <div class="card-body py-0">
+                        <div class="border-bottom py-2 mb-2 ">
+                            <div class="row align-items-center" style="line-height: 80%;">
+                                <div class="col-9 d-flex">
+                                    <img src="./men.jpg" class=" proimg " alt="...">
+                                    <div class="mx-3">
+                                        <h6 class="m-0 p-0">Thilina <i class="bi bi-award-fill"></i></h6>
+                                        <p class=" m-0 p-0 text-muted small"> <small> asasdasd </small> </p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end small ovel">
+                                    <!-- <i class="bi bi-heart fa-lg"></i> -->
+                                    <i class="bi bi-heart-fill fa-lg text-danger"></i>
+                                    <small> 10k </small>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h5 class="card-title ">Card title Lorem ipsum dolor, Fugit, odio.</h5>
+                        <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, tenetur! Lorem ipsum dolor
+                            sit amet consectetur adipisic </p>
+
+                        <div class="d-flex justify-content-between pb-0">
+                            <p class="card-text"> <small class="text-muted ovel">Last </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">updated </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">3 mins ago</small></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="card rounded-6 shadow-sm">
+                    <img src="./boxer_girl.jpg" class="card-img-top rounded-t-6" alt="...">
+                    <div class="card-body py-0">
+                        <div class="border-bottom py-2 mb-2 ">
+                            <div class="row align-items-center" style="line-height: 80%;">
+                                <div class="col-9 d-flex">
+                                    <img src="./boxing.jpg" class=" proimg " alt="...">
+                                    <div class="mx-3">
+                                        <h6 class="m-0 p-0">Thilina <i class="bi bi-award-fill"></i></h6>
+                                        <p class=" m-0 p-0 text-muted small"> <small> asasdasd </small> </p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end small ovel">
+                                    <!-- <i class="bi bi-heart fa-lg"></i> -->
+                                    <i class="bi bi-heart-fill fa-lg text-danger"></i>
+                                    <small> 10k </small>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h5 class="card-title ">Card title Lorem ipsum dolor, Fugit, odio.</h5>
+                        <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, tenetur! Lorem ipsum dolor
+                            sit amet consectetur adipisic </p>
+
+                        <div class="d-flex justify-content-between pb-0">
+                            <p class="card-text"> <small class="text-muted ovel">Last </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">updated </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">3 mins ago</small></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="card rounded-6 shadow-sm">
+                    <img src="./fitness_friends.jpg" class="card-img-top rounded-t-6" alt="...">
+                    <div class="card-body py-0">
+                        <div class="border-bottom py-2 mb-2 ">
+                            <div class="row align-items-center" style="line-height: 80%;">
+                                <div class="col-9 d-flex">
+                                    <img src="./abs_workout.jpg" class=" proimg " alt="...">
+                                    <div class="mx-3">
+                                        <h6 class="m-0 p-0">Thilina <i class="bi bi-award-fill"></i></h6>
+                                        <p class=" m-0 p-0 text-muted small"> <small> asasdasd </small> </p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end small ovel">
+                                    <!-- <i class="bi bi-heart fa-lg"></i> -->
+                                    <i class="bi bi-heart-fill fa-lg text-danger"></i>
+                                    <small> 10k </small>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h5 class="card-title ">Card title Lorem ipsum dolor, Fugit, odio.</h5>
+                        <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, tenetur! Lorem ipsum dolor
+                            sit amet consectetur adipisic </p>
+
+                        <div class="d-flex justify-content-between pb-0">
+                            <p class="card-text"> <small class="text-muted ovel">Last </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">updated </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">3 mins ago</small></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6">
+                <div class="card rounded-6 shadow-sm">
+                    <img src="./six pack men.jpg" class="card-img-top rounded-t-6" alt="...">
+                    <div class="card-body py-0">
+                        <div class="border-bottom py-2 mb-2 ">
+                            <div class="row align-items-center" style="line-height: 80%;">
+                                <div class="col-9 d-flex">
+                                    <img src="./boxer_girl.jpg" class=" proimg " alt="...">
+                                    <div class="mx-3">
+                                        <h6 class="m-0 p-0">Thilina <i class="bi bi-award-fill"></i></h6>
+                                        <p class=" m-0 p-0 text-muted small"> <small> asasdasd </small> </p>
+                                    </div>
+                                </div>
+                                <div class="col-3 text-end small ovel">
+                                    <!-- <i class="bi bi-heart fa-lg"></i> -->
+                                    <i class="bi bi-heart-fill fa-lg text-danger"></i>
+                                    <small> 10k </small>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <h5 class="card-title ">Card title Lorem ipsum dolor, Fugit, odio.</h5>
+                        <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, tenetur! Lorem ipsum dolor
+                            sit amet consectetur adipisic </p>
+
+                        <div class="d-flex justify-content-between pb-0">
+                            <p class="card-text"> <small class="text-muted ovel">Last </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">updated </small></p>
+                            <p class="card-text"> <small class="text-muted ovel">3 mins ago</small></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="  bg-white text-muted border-top">
+        <section class="container mt-5 text-center">
+
+            <div class="row ">
+
+                <div class="col-md-4 ">
+                    <h4 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3 text-secondary"></i>Company name
+                    </h4>
+                    <p>
+                        Here you can use rows and columns to organize your footer content. Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+
+                <div class="col-md-4 ">
+                    <h4 class="text-uppercase fw-bold mb-4">
+                        Products
+                    </h4>
+                    <p>
+                        <a href="#!" class="text-reset">Angular</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">React</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Vue</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 ">
+                    <h4 class="text-uppercase fw-bold mb-4">Contact</h4>
+                    <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+                    <p> <i class="fas fa-envelope me-3 text-secondary"></i>info@example.com </p>
+                    <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <div class="text-center pb-3">
+            © 2021 Copyright:
+        </div>
+    </footer>
+
+</body>
+<!-- Bootstrap 5 js  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+    async></script>
+
+</html>
