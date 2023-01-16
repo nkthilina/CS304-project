@@ -11,7 +11,7 @@ import java.util.List;
 @Service
 @Transactional
 public class UserService {
-    UserDTO addUser(UserDTO userdata);
+//    UserDTO addUser(UserDTO userdata);
 
     @Autowired
     public UserRepository userRepository ;
