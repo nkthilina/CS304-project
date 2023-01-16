@@ -22,4 +22,6 @@ public class Student {
     @Column(name = "height")
     private float height;
 
+    private int abd;
+
 }
